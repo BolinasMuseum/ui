@@ -23,3 +23,25 @@ login-rologin-pwdValue-after:
 login-footerFirst:
 login-footerLink:
 login-footerLast: 
+
+# Fine and Contemporary Art Profile - Cataloging
+collection-object-objectNameLabel: Object/work type
+collection-object-responsibleDepartmentsLabel: Classification terms
+collection-object-responsibleDepartmentLabel: Classification term
+collection-object-referenceLabel: Source brief citation
+collection-object-titleLabel: Title text
+collection-object-contentConceptsLabel: General subject terms
+collection-object-dimensionSummaryLabel: Dimensions description
+collection-object-objectProductionDateGroupLabel: Creation date
+collection-object-objectProductionDateLabel: Creation date
+collection-object-objectProductionOrganizationLabel: Creator identity
+collection-object-objectProductionOrganizationRoleLabel: Creator role
+collection-object-objectProductionPersononLabel: Creator identity
+collection-object-objectProductionPersonRoleLabel: Creator role
+collection-object-objectProductionPeopleLabel: Creator identity
+collection-object-objectProductionPeopleRoleLabel: Creator role
+
+# Fine and Contemporary Art Profile - Concept
+preferredCA-termDisplayNameLabel: Generic concept term
+concept-scopeNoteLabel: Concept scope note
+concept-scopeNoteSourceLabel: Note source
