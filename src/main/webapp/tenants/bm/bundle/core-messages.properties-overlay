@@ -45,3 +45,8 @@ collection-object-objectProductionPeopleRoleLabel: Creator role
 preferredCA-termDisplayNameLabel: Generic concept term
 concept-scopeNoteLabel: Concept scope note
 concept-scopeNoteSourceLabel: Note source
+
+# Person
+person-birthDateGroupLabel: Associated Dates
+person-bioNoteLabel: Collection Name Note
+person-nameNoteLabel: Collection Notes
