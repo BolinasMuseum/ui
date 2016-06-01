@@ -62,3 +62,6 @@ acquisition-acquisitionObjectCountLabel: Object Count
 # Group
 group-responsibleDepartmentLabel: Reason for Group
 group-scopeNoteLabel: Description
+
+# Intake
+intake-receivedByLabel: Received by
