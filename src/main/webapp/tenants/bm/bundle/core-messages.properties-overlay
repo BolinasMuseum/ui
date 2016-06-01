@@ -65,3 +65,8 @@ group-scopeNoteLabel: Description
 
 # Intake
 intake-receivedByLabel: Received by
+
+# Loans Out
+loanout-lendersAuthorizerLabel: Authorized by
+loanout-lendersContactLabel: Bolinas Museum contact
+loanout-lendersAuthorizationDateLabel: Bolinas Museum authorization date 
