@@ -58,3 +58,7 @@ person-nameNoteLabel: Collection Notes
 # Acquisition
 acquisition-acquisitionAuthorizerDateLabel: Acquisition date
 acquisition-acquisitionObjectCountLabel: Object Count
+
+# Group
+group-responsibleDepartmentLabel: Reason for Group
+group-scopeNoteLabel: Description
