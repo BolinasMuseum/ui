@@ -46,7 +46,15 @@ preferredCA-termDisplayNameLabel: Generic concept term
 concept-scopeNoteLabel: Concept scope note
 concept-scopeNoteSourceLabel: Note source
 
+#
+# Bolinas Museum config below
+#
+
 # Person
 person-birthDateGroupLabel: Associated Dates
 person-bioNoteLabel: Collection Name Note
 person-nameNoteLabel: Collection Notes
+
+# Acquisition
+acquisition-acquisitionAuthorizerDateLabel: Acquisition date
+acquisition-acquisitionObjectCountLabel: Object Count
