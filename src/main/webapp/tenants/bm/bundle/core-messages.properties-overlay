@@ -73,3 +73,9 @@ loanout-lendersAuthorizationDateLabel: Bolinas Museum authorization date
 
 # Media
 media-boilerplatePhotoCreditLabel: Boilerplate photo credit
+
+# Valuation control
+valuationcontrol-bmValueAmountsLabel: Amounts
+valuationcontrol-bmValueAmountLabel: Amount
+valuationcontrol-bmValueAmountLabel: Value amount
+valuationcontrol-bmValueNoteLabel: Value note
