@@ -79,3 +79,8 @@ valuationcontrol-bmValueAmountsLabel: Amounts
 valuationcontrol-bmValueAmountLabel: Amount
 valuationcontrol-bmValueAmountLabel: Value amount
 valuationcontrol-bmValueNoteLabel: Value note
+
+# Vocabularies
+vocab-objectname: Object Name Concepts
+vocab-category: Category Concepts
+vocab-subcategory: Sub-Category Concepts
