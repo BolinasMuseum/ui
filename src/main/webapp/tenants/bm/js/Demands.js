@@ -1930,6 +1930,11 @@ https://source.collectionspace.org/collection-space/LICENSE.txt
                 }
             }
         });
+
+        // BM Mimic the use of different templates for authority records
+        fluid.demands("toggleVocabTemplateFields", "cspace.recordEditor", {
+            container: "{recordEditor}.container"
+        });
     };
     
     fluid.demands("cspace.localDemands", "cspace.localData", {

@@ -197,7 +197,17 @@ cspace = cspace || {};
                         }
                     }
                 }
-            }
+            },
+            // BM Mimic the use of different templates for authority records
+            toggleVocabTemplateFields: {
+                type: "bm.toggleVocabTemplateFields",
+                options: {
+                    selectors: {
+                        templatetrigger: "{cspace.recordEditor}.options.selectors.templatetrigger",
+                    }
+                },
+                createOnEvent: "afterRecordRender"
+            },
         },
         events: {
             // Fires when data for the record is fetched.
@@ -346,6 +356,7 @@ cspace = cspace || {};
                 that.events.afterFetch.fire();
             });
         }
+
     };
 
     // Updates the UI to read only if applicable.
