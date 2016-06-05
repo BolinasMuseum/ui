@@ -54,6 +54,7 @@ concept-scopeNoteSourceLabel: Note source
 person-birthDateGroupLabel: Associated Dates
 person-bioNoteLabel: Collection Name Note
 person-nameNoteLabel: Collection Notes
+preferredPA-termTypeLabel: Relationship to Museum
 
 # Acquisition
 acquisition-acquisitionAuthorizerDateLabel: Acquisition date
@@ -84,3 +85,4 @@ valuationcontrol-bmValueNoteLabel: Value note
 vocab-objectname: Object Name Concepts
 vocab-category: Category Concepts
 vocab-subcategory: Sub-Category Concepts
+vocab-namedcollection: Named Collection

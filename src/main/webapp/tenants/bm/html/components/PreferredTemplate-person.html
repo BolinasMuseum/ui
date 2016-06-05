@@ -1,4 +1,4 @@
-<div class="content csc-preferredPA-personTermGroup">
+<div class="content csc-preferredPA-personTermGroup vocab-template">
     <div class="label csc-preferred-label"></div>
     <div class="info-column">
         <div class="info-pair">
@@ -8,25 +8,25 @@
                         <tr>
                             <td><span class="csc-preferredPA-termDisplayName-label label required"></span><span class="required">*</span></td>
                             <td class="csc-preferredPA-termName-label"></td>
-                            <!--td class="csc-preferredPA-termQualifier-label"></td>
-                            <td class="csc-preferredPA-termType-label"></td>
-                            <td class="csc-preferredPA-termStatus-label label"></td-->
+                            <td class="csc-preferredPA-termQualifier-label vocab-hide-person vocab-hide-namedcollection"></td>
+                            <td class="csc-preferredPA-termType-label vocab-hide-namedcollection"></td>
+                            <td class="csc-preferredPA-termStatus-label vocab-hide-person vocab-hide-namedcollection"></td>
                         </tr>
                     </thead>
                     <tbody>
                         <tr>
                             <td><input type="text" class="csc-personAuthority-termDisplayName"/></td>
                             <td><input type="text" class="csc-personAuthority-termName"/></td>
-                            <!--td><input type="text" class="csc-personAuthority-termQualifier"/></td>
-                            <td><select class="csc-personAuthority-termType input-select"><option value="">Options not loaded</option></select></td>
-                            <td><select class="csc-personAuthority-termStatus input-select"><option value="">Options not loaded</option></select></td-->
+                            <td class="vocab-hide-person vocab-hide-namedcollection"><input type="text" class="csc-personAuthority-termQualifier"/></td>
+                            <td class="vocab-hide-namedcollection"><select class="csc-personAuthority-termType input-select"><option value="">Options not loaded</option></select></td>
+                            <td class="vocab-hide-person vocab-hide-namedcollection"><select class="csc-personAuthority-termStatus input-select"><option value="">Options not loaded</option></select></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
     </div>
-    <!--div class="info-column">
+    <div class="info-column vocab-hide-person vocab-hide-namedcollection">
         <div class="info-pair">
             <div class="content">
                 <table>
@@ -53,8 +53,8 @@
                 </table>
             </div>
         </div>
-    </div-->
-    <!--div class="info-column">
+    </div>
+    <div class="info-column vocab-hide-namedcollection">
         <div class="info-pair">
             <div class="content">
                 <table>
@@ -66,7 +66,7 @@
                             <td class="csc-preferredPA-middleName-label"></td>
                             <td class="csc-preferredPA-surName-label"></td>
                             <td class="csc-preferredPA-nameAdditions-label"></td>
-                            <td class="csc-preferredPA-initials-label"></td>
+                            <td class="csc-preferredPA-initials-label vocab-hide-person"></td>
                         </tr>
                     </thead>
                     <tbody>
@@ -77,11 +77,11 @@
                             <td><input type="text" class="csc-personAuthority-middleName"/></td>
                             <td><input type="text" class="csc-personAuthority-surName"/></td>
                             <td><input type="text" class="csc-personAuthority-nameAdditions"/></td>
-                            <td><input type="text" class="csc-personAuthority-initials"/></td>
+                            <td class="vocab-hide-person"><input type="text" class="csc-personAuthority-initials"/></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
-    </div-->
+    </div>
 </div>
