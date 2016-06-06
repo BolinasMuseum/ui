@@ -1,7 +1,7 @@
 <div class="fl-container-flex fl-fix information-group">
     <div class="csc-recordEditor-header fl-container-flex header toggle csc-collection-object-identificationInformation-label"></div>
     <div class="csc-recordEditor-togglable fl-container-flex fl-fix content main">
-        <div class="info-column">
+         <div class="info-column">
             <div class="info-column2-50 fl-force-left">
                 <div class="info-pair">
                     <div class="header">
@@ -11,16 +11,8 @@
                         <input type="text" class="csc-object-identification-object-number pattern-chooser-input" />
                     </div>
                 </div>
-
-                <div class="info-pair">
-                    <div class="header">
-                        <div class="label csc-collection-object-numberOfObjects-label"></div>
-                    </div>
-                    <div class="content">
-                        <input type="text" class="input-numeric-medium csc-object-identification-number-objects"/>
-                    </div>
-                </div>
-
+            </div>
+            <div class="info-column2-50 fl-force-right">
                 <div class="info-pair">
                     <div class="header">
                         <div class="label csc-collection-object-otherNumber-label"></div>
@@ -42,85 +34,37 @@
                         </table>
                     </div>
                 </div>
-
-                <div class="info-pair-select">
-                    <div class="header">
-                        <div class="label csc-collection-object-responsibleDepartments-label"></div>
-                    </div>
-                    <div class="content">
-                        <select class="csc-object-identification-responsible-department input-select"><option value="">Options not loaded</option></select>
-                    </div>
-                </div>
-
-                <div class="info-pair-select">
-                    <div class="header">
-                        <div class="label csc-collection-object-collection-label"></div>
-                    </div>
-                    <div class="content">
-                        <select class="csc-object-identification-collection input-select"><option value="">Options not loaded</option></select>
-                    </div>
-                </div>
-
-                <div class="info-pair-select">
-                    <div class="header">
-                        <div class="label csc-collection-object-recordStatus-label"></div>
-                    </div>
-                    <div class="content">
-                        <select class="csc-object-identification-record-status input-select"><option value="">Options not loaded</option></select>
-                    </div>
-                </div>
-
-                <!--
-                Snippet for Cataloging Level.
-                Included as part of the Fine Art Extension.
-                -->
-                <div class="info-pair">
-                    <div class="header">
-                        <div class="label csc-collection-object-catalogLevel-label"></div>
-                    </div>
-                    <div class="content">
-                        <select class="input-select csc-collection-object-catalogLevel">
-                            <option value="">Options not loaded</option>
-                        </select>
-                    </div>
-                </div>
             </div>
-
-            <div class="info-column2-50 fl-force-right">
-                <div class="info-pair">
-                    <div class="header">
-                        <div class="label csc-collection-object-briefDescriptions-label"></div>
-                    </div>
-                    <div class="content">
-                        <textarea rows="4" cols="30" class="input-textarea csc-object-identification-brief-description"></textarea>
-                    </div>
-                </div>
-
-                <div class="info-pair">
-                    <div class="header">
-                        <div class="label csc-collection-object-distinguishingFeatures-label"></div>
-                    </div>
-                    <div class="content">
-                        <textarea rows="4" cols="30" class="input-textarea csc-object-identification-distinguishing-features"></textarea>
-                    </div>
-                </div>
-
-                <div class="info-pair">
-                    <div class="header">
-                        <div class="label csc-collection-object-comments-label"></div>
-                    </div>
-                    <div class="content">
-                        <textarea rows="4" cols="30" class="input-textarea csc-object-identification-comments"></textarea>
-                    </div>
-                </div>
-                <div class="info-pair">
-                    <div class="header">
-                        <div class="label csc-collection-object-computedCurrentLocation-label"></div>
-                    </div>
-                    <div class="content">
-                        <input type="text" class="csc-collection-object-computedCurrentLocation"/>
-                    </div>
-                </div>
+        </div>
+        <div class="info-pair">
+            <div class="header">
+                <div class="label csc-collection-object-objectNameGroup-label"></div>
+            </div>
+            <div class="content">
+                <table>
+                    <thead>
+                    <tr>
+                        <td class="csc-collection-object-objectName-label"></td>
+                        <!--td class="csc-collection-object-objectNameCurrency-label"></td-->
+                        <!--td class="csc-collection-object-objectNameLevel-label"></td-->
+                        <td class="csc-collection-object-objectNameSystem-label"></td>
+                        <td class="csc-collection-object-objectNameType-label"></td>
+                        <!--td class="csc-collection-object-objectNameLanguage-label"></td-->
+                        <td class="csc-collection-object-objectNameNote-label"></td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="csc-collection-object-objectNameGroup">
+                        <td><input type="text" class="csc-object-identification-object-name"/></td>
+                        <!--td><select class="csc-object-identification-object-currency input-select"><option value="">Options not loaded</option></select></td-->
+                        <!--td><select class="csc-object-identification-object-level input-select"><option value="">Options not loaded</option></select></td-->
+                        <td><input type="text" class="csc-object-identification-object-system"/></td>
+                        <td><input type="text" class="csc-object-identification-object-type"/></td>
+                        <!--td><select class="csc-object-identification-object-language input-select"><option value="">Options not loaded</option></select></td-->
+                        <td style="width:25%;"><input type="text" class="csc-object-identification-object-note"/></td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
 
@@ -191,38 +135,116 @@
             </div>
         </div>
 
-        <div class="info-pair">
-            <div class="header">
-                <div class="label csc-collection-object-objectNameGroup-label"></div>
+        <div class="info-column">
+            <div class="info-column2-50 fl-force-left">
+                <div class="info-pair">
+                    <div class="header">
+                        <div class="label csc-collection-object-computedCurrentLocation-label"></div>
+                    </div>
+                    <div class="content">
+                        <input type="text" class="csc-collection-object-computedCurrentLocation"/>
+                    </div>
+                </div>
+                <div class="info-pair">
+                    <div class="header">
+                        <div class="label csc-collection-object-numberOfObjects-label"></div>
+                    </div>
+                    <div class="content">
+                        <input type="text" class="input-numeric-medium csc-object-identification-number-objects"/>
+                    </div>
+                </div>
+                <div class="info-pair-select">
+                    <div class="header">
+                        <div class="label csc-collection-object-responsibleDepartments-label"></div>
+                    </div>
+                    <div class="content">
+                        <select class="csc-object-identification-responsible-department input-select"><option value="">Options not loaded</option></select>
+                    </div>
+                </div>
+                <div class="info-pair-select">
+                    <div class="header">
+                        <div class="label csc-collection-object-collection-label"></div>
+                    </div>
+                    <div class="content">
+                        <select class="csc-object-identification-collection input-select"><option value="">Options not loaded</option></select>
+                    </div>
+                </div>
+                <div class="info-pair">
+                    <div class="header">
+                        <div class="label csc-collection-object-namedCollection-label"></div>
+                    </div>
+                    <div class="content">
+                        <input type="text" class="csc-collection-object-namedCollection"/>
+                    </div>
+                </div>
+                <!--
+                Snippet for Cataloging Level.
+                Included as part of the Fine Art Extension.
+                -->
+                <div class="info-pair">
+                    <div class="header">
+                        <div class="label csc-collection-object-catalogLevel-label"></div>
+                    </div>
+                    <div class="content">
+                        <select class="input-select csc-collection-object-catalogLevel">
+                            <option value="">Options not loaded</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="info-pair">
+                    <div class="header">
+                        <div class="label csc-collection-object-approvedForWeb-label"></div>
+                    </div>
+                    <div class="content">
+                        <input type="checkbox" class="csc-collection-object-approvedForWeb"/>
+                    </div>
+                </div>
+                <!--div class="info-pair-select">
+                    <div class="header">
+                        <div class="label csc-collection-object-recordStatus-label"></div>
+                    </div>
+                    <div class="content">
+                        <select class="csc-object-identification-record-status input-select"><option value="">Options not loaded</option></select>
+                    </div>
+                </div-->
             </div>
-            <div class="content">
-                <table>
-                    <thead>
-                    <tr>
-                        <td class="csc-collection-object-objectName-label"></td>
-                        <td class="csc-collection-object-objectNameCurrency-label"></td>
-                        <td class="csc-collection-object-objectNameLevel-label"></td>
-                        <td class="csc-collection-object-objectNameSystem-label"></td>
-                        <td class="csc-collection-object-objectNameType-label"></td>
-                        <td class="csc-collection-object-objectNameLanguage-label"></td>
-                        <td class="csc-collection-object-objectNameNote-label"></td>
-                    </tr>
-                    </thead>
-                    <tbody>
-                    <tr class="csc-collection-object-objectNameGroup">
-                        <td><input type="text" class="csc-object-identification-object-name"/></td>
-                        <td><select class="csc-object-identification-object-currency input-select"><option value="">Options not loaded</option></select></td>
-                        <td><select class="csc-object-identification-object-level input-select"><option value="">Options not loaded</option></select></td>
-                        <td><select class="csc-object-identification-object-system input-select"><option value="">Options not loaded</option></select></td>
-                        <td><select class="csc-object-identification-object-type input-select"><option value="">Options not loaded</option></select></td>
-                        <td><select class="csc-object-identification-object-language input-select"><option value="">Options not loaded</option></select></td>
-                        <td style="width:25%;"><input type="text" class="csc-object-identification-object-note"/></td>
-                    </tr>
-                    </tbody>
-                </table>
+
+            <div class="info-column2-50 fl-force-right">
+                <div class="info-pair">
+                    <div class="header">
+                        <div class="label csc-collection-object-conditionStatus-label"></div>
+                    </div>
+                    <div class="content">
+                        <select class="csc-collection-object-conditionStatus input-select"><option value="">Options not loaded</option></select>
+                    </div>
+                </div>
+                <div class="info-pair">
+                    <div class="header">
+                        <div class="label csc-collection-object-briefDescriptions-label"></div>
+                    </div>
+                    <div class="content">
+                        <textarea rows="4" cols="30" class="input-textarea csc-object-identification-brief-description"></textarea>
+                    </div>
+                </div>
+                <div class="info-pair">
+                    <div class="header">
+                        <div class="label csc-collection-object-distinguishingFeatures-label"></div>
+                    </div>
+                    <div class="content">
+                        <textarea rows="4" cols="30" class="input-textarea csc-object-identification-distinguishing-features"></textarea>
+                    </div>
+                </div>
+                <div class="info-pair">
+                    <div class="header">
+                        <div class="label csc-collection-object-comments-label"></div>
+                    </div>
+                    <div class="content">
+                        <textarea rows="4" cols="30" class="input-textarea csc-object-identification-comments"></textarea>
+                    </div>
+                </div>
+                
             </div>
         </div>
-
     </div>
 </div> <!-- information-group -->
 
@@ -239,35 +261,6 @@
                         <input type="text" class="csc-objectProductionDateGroup-objectProductionDate" />
                     </div>
                 </div>
-            </div>
-
-            <div class="info-column2-50 fl-force-right">
-                <div class="info-pair">
-                    <div class="header">
-                        <div class="label csc-collection-object-objectProductionPeopleGroup-label"></div>
-                    </div>
-                    <div class="content">
-                        <table>
-                            <thead>
-                            <tr>
-                                <td class="csc-collection-object-objectProductionPeople-label"></td>
-                                <td class="csc-collection-object-objectProductionPeopleRole-label"></td>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr class="csc-collection-object-objectProductionPeopleGroup">
-                                <td><input type="text" class="csc-object-production-people"/></td>
-                                <td><input type="text" class="csc-collection-object-objectProductionPeopleRole"/></td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="info-column">
-            <div class="info-column2-50 fl-force-left">
                 <div class="info-pair">
                     <div class="header">
                         <div class="label csc-collection-object-techniqueGroup-label"></div>
@@ -289,35 +282,6 @@
                         </table>
                     </div>
                 </div>
-            </div>
-
-            <div class="info-column2-50 fl-force-right">
-                <div class="info-pair">
-                    <div class="header">
-                        <div class="label csc-collection-object-objectProductionPersonGroup-label"></div>
-                    </div>
-                    <div class="content">
-                        <table>
-                            <thead>
-                            <tr>
-                                <td class="csc-collection-object-objectProductionPerson-label"></td>
-                                <td class="csc-collection-object-objectProductionPersonRole-label"></td>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr class="csc-collection-object-objectProductionPersonGroup">
-                                <td><input type="text" class="csc-object-production-person"/></td>
-                                <td><input type="text" class="csc-collection-object-objectProductionPersonRole"/></td>
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="info-column">
-            <div class="info-column2-50 fl-force-left">
                 <div class="info-pair">
                     <div class="header">
                         <div class="label csc-collection-object-objectProductionPlaceGroup-label"></div>
@@ -339,9 +303,59 @@
                         </table>
                     </div>
                 </div>
+                <div class="info-pair">
+                    <div class="header">
+                        <div class="label csc-collection-object-objectProductionReasons-label"></div>
+                    </div>
+                    <div class="content">
+                        <textarea rows="4" cols="30" class="input-textarea csc-object-production-reason"></textarea>
+                    </div>
+                </div>
             </div>
 
             <div class="info-column2-50 fl-force-right">
+                <!--div class="info-pair">
+                    <div class="header">
+                        <div class="label csc-collection-object-objectProductionPeopleGroup-label"></div>
+                    </div>
+                    <div class="content">
+                        <table>
+                            <thead>
+                            <tr>
+                                <td class="csc-collection-object-objectProductionPeople-label"></td>
+                                <td class="csc-collection-object-objectProductionPeopleRole-label"></td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="csc-collection-object-objectProductionPeopleGroup">
+                                <td><input type="text" class="csc-object-production-people"/></td>
+                                <td><input type="text" class="csc-collection-object-objectProductionPeopleRole"/></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div-->
+                <div class="info-pair">
+                    <div class="header">
+                        <div class="label csc-collection-object-objectProductionPersonGroup-label"></div>
+                    </div>
+                    <div class="content">
+                        <table>
+                            <thead>
+                            <tr>
+                                <td class="csc-collection-object-objectProductionPerson-label"></td>
+                                <td class="csc-collection-object-objectProductionPersonRole-label"></td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="csc-collection-object-objectProductionPersonGroup">
+                                <td><input type="text" class="csc-object-production-person"/></td>
+                                <td><input type="text" class="csc-collection-object-objectProductionPersonRole"/></td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
                 <div class="info-pair">
                     <div class="header">
                         <div class="label csc-collection-object-objectProductionOrganizationGroup-label"></div>
@@ -363,22 +377,6 @@
                         </table>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="info-column">
-            <div class="info-column2-50 fl-force-left">
-                <div class="info-pair">
-                    <div class="header">
-                        <div class="label csc-collection-object-objectProductionReasons-label"></div>
-                    </div>
-                    <div class="content">
-                        <textarea rows="4" cols="30" class="input-textarea csc-object-production-reason"></textarea>
-                    </div>
-                </div>
-            </div>
-
-            <div class="info-column2-50 fl-force-right">
                 <div class="info-column">
                     <div class="info-pair">
                         <div class="header">
@@ -574,7 +572,7 @@
         </div>
 
         <div class="info-column">
-            <div class="info-column2-50 fl-force-left">
+            <!--div class="info-column2-50 fl-force-left">
                 <div class="info-pair">
                     <div class="header">
                         <div class="label csc-collection-object-objectComponentGroup-label">Object Component</div>
@@ -596,9 +594,9 @@
                         </table>
                     </div>
                 </div>
-            </div>
+            </div-->
 
-            <div class="info-column2-50 fl-force-right">
+            <!--div class="info-column2-50 fl-force-right">
                 <div class="info-pair">
                     <div class="header">
                         <div class="label csc-collection-object-technicalAttributeGroup-label"></div>
@@ -622,7 +620,7 @@
                         </table>
                     </div>
                 </div>
-            </div>
+            </div-->
 
         </div>
 
@@ -714,14 +712,14 @@
                     </div>
 
                     <div class="info-column2-50 fl-force-right">
-                        <div class="info-pair">
+                        <!--div class="info-pair">
                             <div class="header">
                                 <div class="label csc-collection-object-contentPeoples-label"></div>
                             </div>
                             <div class="content">
                                 <input type="text" class="csc-object-description-content-people"/>
                             </div>
-                        </div>
+                        </div-->
 
                         <div class="info-pair">
                             <div class="header">
@@ -741,14 +739,14 @@
                             </div>
                         </div>
 
-                        <div class="info-pair-select">
+                        <!--div class="info-pair-select">
                             <div class="header">
                                 <div class="label csc-collection-object-contentScripts-label"></div>
                             </div>
                             <div class="content">
                                 <select class="csc-object-description-content-script input-select"><option value="">Options not loaded</option></select>
                             </div>
-                        </div>
+                        </div-->
 
                         <div class="info-pair">
                             <div class="header">
@@ -781,7 +779,7 @@
                             </div>
                         </div>
 
-                        <div class="info-pair">
+                        <!--div class="info-pair">
                             <div class="header">
                                 <div class="label csc-collection-object-contentOtherGroup-label"></div>
                             </div>
@@ -801,7 +799,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </div>
+                        </div-->
                     </div>
                 </div>
 
@@ -822,7 +820,7 @@
              Included as part of the Variable Media Extension
             -->
 
-                <div class="csc-recordEditor-togglable fl-container-flex fl-fix content main">
+                <!--div class="csc-recordEditor-togglable fl-container-flex fl-fix content main">
                     <div class="info-column">
                         <div class="info-pair">
                             <div class="header">
@@ -848,7 +846,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div-->
             </div>
         </div> <!-- information-subgroup -->
 
@@ -1083,7 +1081,6 @@
                             <tr class="csc-collection-object-filmVideoComponentsGroup">
                                 <td><select class="csc-collection-object-originalFormat input-select"><option value="">Options not loaded</option></select></td>
                                 <td><select class="csc-collection-object-originalAudioFormat input-select"><option value="">Options not loaded</option></select></td>
-
                             </tr>
                             </tbody>
                         </table>
@@ -1099,54 +1096,6 @@
                         </select>
                     </div>
                 </div>
-            </div>
-
-            <div class="info-column2-50 fl-force-right">
-                <div class="info-pair">
-                    <div class="header">
-                        <div class="label csc-collection-object-digitalWorksGroup-label"></div>
-                    </div>
-                    <div class="content">
-                        <table>
-                            <thead>
-                            <tr>
-                                <td class="csc-collection-object-programmingLanguage-label"></td>
-                                <td class="csc-collection-object-authoringEnvironment-label"></td>
-                            </tr>
-                            </thead>
-                            <tbody>
-                            <tr class="csc-collection-object-digitalWorksGroup">
-                                <td>
-                                    <select class="csc-collection-object-programmingLanguage input-select">
-                                        <option value="">Options not loaded</option>
-                                    </select>
-                                </td>
-                                <td>
-                                    <select class="csc-collection-object-authoringEnvironment input-select">
-                                        <option value="">Options not loaded</option>
-                                    </select>
-                                </td>
-
-                            </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-                <div class="info-pair">
-                    <div class="header">
-                        <div class="label csc-collection-object-compressionSystems-label"></div>
-                    </div>
-                    <div class="content">
-                        <select class="input-select csc-collection-object-compressionSystem">
-                            <option value="">Options not loaded</option>
-                        </select>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="info-column">
-            <div class="info-column2-50 fl-force-left">
                 <div class="info-pair">
                     <div class="header">
                         <div class="label csc-collection-object-visualPreferencesGroup-label"> </div>
@@ -1190,6 +1139,46 @@
             </div>
 
             <div class="info-column2-50 fl-force-right">
+                <!--div class="info-pair">
+                    <div class="header">
+                        <div class="label csc-collection-object-digitalWorksGroup-label"></div>
+                    </div>
+                    <div class="content">
+                        <table>
+                            <thead>
+                            <tr>
+                                <td class="csc-collection-object-programmingLanguage-label"></td>
+                                <td class="csc-collection-object-authoringEnvironment-label"></td>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr class="csc-collection-object-digitalWorksGroup">
+                                <td>
+                                    <select class="csc-collection-object-programmingLanguage input-select">
+                                        <option value="">Options not loaded</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select class="csc-collection-object-authoringEnvironment input-select">
+                                        <option value="">Options not loaded</option>
+                                    </select>
+                                </td>
+
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div-->
+                <div class="info-pair">
+                    <div class="header">
+                        <div class="label csc-collection-object-compressionSystems-label"></div>
+                    </div>
+                    <div class="content">
+                        <select class="input-select csc-collection-object-compressionSystem">
+                            <option value="">Options not loaded</option>
+                        </select>
+                    </div>
+                </div>
                 <div class="info-pair">
                     <div class="header">
                         <div class="label csc-collection-object-sourceExternalData-label"></div>
@@ -1219,7 +1208,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
     </div>
 </div>
@@ -1233,7 +1221,7 @@
             <div class="csc-recordEditor-togglable fl-container-flex fl-fix content main">
                 <div class="info-column">
                     <div class="info-column2-50 fl-force-left">
-                        <div class="info-pair">
+                        <!--div class="info-pair">
                             <div class="header">
                                 <div class="label csc-collection-object-assocActivityGroup-label"></div>
                             </div>
@@ -1255,7 +1243,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </div>
+                        </div-->
 
                         <div class="info-pair">
                             <div class="header">
@@ -1266,14 +1254,14 @@
                                     <thead>
                                     <tr>
                                         <td class="csc-collection-object-assocObject-label"></td>
-                                        <td class="csc-collection-object-assocObjectType-label"></td>
+                                        <!--td class="csc-collection-object-assocObjectType-label"></td-->
                                         <td class="csc-collection-object-assocObjectNote-label"></td>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr class="csc-collection-object-assocObjectGroup">
                                         <td><input type="text" class="csc-collection-object-assocObject"/></td>
-                                        <td><input type="text" class="csc-collection-object-assocObjectType"/></td>
+                                        <!--td><input type="text" class="csc-collection-object-assocObjectType"/></td-->
                                         <td><input type="text" class="csc-collection-object-assocObjectNote"/></td>
                                     </tr>
                                     </tbody>
@@ -1290,14 +1278,14 @@
                                     <thead>
                                     <tr>
                                         <td class="csc-collection-object-assocConcept-label"></td>
-                                        <td class="csc-collection-object-assocConceptType-label"></td>
+                                        <!--td class="csc-collection-object-assocConceptType-label"></td-->
                                         <td class="csc-collection-object-assocConceptNote-label"></td>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr class="csc-collection-object-assocConceptGroup">
                                         <td><input type="text" class="csc-collection-object-assocConcept"/></td>
-                                        <td><input type="text" class="csc-collection-object-assocConceptType"/></td>
+                                        <!--td><input type="text" class="csc-collection-object-assocConceptType"/></td-->
                                         <td><input type="text" class="csc-collection-object-assocConceptNote"/></td>
                                     </tr>
                                     </tbody>
@@ -1314,14 +1302,14 @@
                                     <thead>
                                     <tr>
                                         <td class="csc-collection-object-assocCulturalContext-label"></td>
-                                        <td class="csc-collection-object-assocCulturalContextType-label"></td>
+                                        <!--td class="csc-collection-object-assocCulturalContextType-label"></td-->
                                         <td class="csc-collection-object-assocCulturalContextNote-label"></td>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr class="csc-collection-object-assocCulturalContextGroup">
                                         <td><input type="text" class="csc-collection-object-assocCulturalContext"/></td>
-                                        <td><input type="text" class="csc-collection-object-assocCulturalContextType"/></td>
+                                        <!--td><input type="text" class="csc-collection-object-assocCulturalContextType"/></td-->
                                         <td><input type="text" class="csc-collection-object-assocCulturalContextNote"/></td>
                                     </tr>
                                     </tbody>
@@ -1338,14 +1326,14 @@
                                     <thead>
                                     <tr>
                                         <td class="csc-collection-object-assocOrganization-label"></td>
-                                        <td class="csc-collection-object-assocOrganizationType-label"></td>
+                                        <!--td class="csc-collection-object-assocOrganizationType-label"></td-->
                                         <td class="csc-collection-object-assocOrganizationNote-label"></td>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr class="csc-collection-object-assocOrganizationGroup">
                                         <td><input type="text" class="csc-collection-object-assocOrganization"/></td>
-                                        <td><input type="text" class="csc-collection-object-assocOrganizationType"/></td>
+                                        <!--td><input type="text" class="csc-collection-object-assocOrganizationType"/></td-->
                                         <td><input type="text" class="csc-collection-object-assocOrganizationNote"/></td>
                                     </tr>
                                     </tbody>
@@ -1353,7 +1341,7 @@
                             </div>
                         </div>
 
-                        <div class="info-pair">
+                        <!--div class="info-pair">
                             <div class="header">
                                 <div class="label csc-collection-object-assocPeopleGroup-label"></div>
                             </div>
@@ -1375,7 +1363,7 @@
                                     </tbody>
                                 </table>
                             </div>
-                        </div>
+                        </div-->
 
                         <div class="info-pair">
                             <div class="header">
@@ -1386,14 +1374,14 @@
                                     <thead>
                                     <tr>
                                         <td class="csc-collection-object-assocPerson-label"></td>
-                                        <td class="csc-collection-object-assocPersonType-label"></td>
+                                        <!--td class="csc-collection-object-assocPersonType-label"></td-->
                                         <td class="csc-collection-object-assocPersonNote-label"></td>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr class="csc-collection-object-assocPersonGroup">
                                         <td><input type="text" class="csc-collection-object-assocPerson"/></td>
-                                        <td><input type="text" class="csc-collection-object-assocPersonType"/></td>
+                                        <!--td><input type="text" class="csc-collection-object-assocPersonType"/></td-->
                                         <td><input type="text" class="csc-collection-object-assocPersonNote"/></td>
                                     </tr>
                                     </tbody>
@@ -1410,14 +1398,14 @@
                                     <thead>
                                     <tr>
                                         <td class="csc-collection-object-assocPlace-label"></td>
-                                        <td class="csc-collection-object-assocPlaceType-label"></td>
+                                        <!--td class="csc-collection-object-assocPlaceType-label"></td-->
                                         <td class="csc-collection-object-assocPlaceNote-label"></td>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr class="csc-collection-object-assocPlaceGroup">
                                         <td><input type="text" class="csc-collection-object-assocPlace"/></td>
-                                        <td><input type="text" class="csc-collection-object-assocPlaceType"/></td>
+                                        <!--td><input type="text" class="csc-collection-object-assocPlaceType"/></td-->
                                         <td><input type="text" class="csc-collection-object-assocPlaceNote"/></td>
                                     </tr>
                                     </tbody>
@@ -1436,55 +1424,55 @@
                                     <thead>
                                     <tr>
                                         <td class="csc-collection-object-assocEventName-label"></td>
-                                        <td class="csc-collection-object-assocEventNameType-label"></td>
+                                        <!--td class="csc-collection-object-assocEventNameType-label"></td-->
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr>
                                         <td><input type="text" class="csc-collection-object-assocEventName"/></td>
-                                        <td><input type="text" class="csc-collection-object-assocEventNameType"/></td>
+                                        <!--td><input type="text" class="csc-collection-object-assocEventNameType"/></td-->
                                     </tr>
                                     </tbody>
                                 </table>
                             </div>
                         </div>
 
-                        <div class="info-pair">
+                        <!--div class="info-pair">
                             <div class="header">
                                 <div class="label csc-collection-object-assocEventOrganizations-label"></div>
                             </div>
                             <div class="content">
                                 <input type="text" class="csc-object-history-association-event-organization"/>
                             </div>
-                        </div>
+                        </div-->
 
-                        <div class="info-pair">
+                        <!--div class="info-pair">
                             <div class="header">
                                 <div class="label csc-collection-object-assocEventPeoples-label"></div>
                             </div>
                             <div class="content">
                                 <input type="text" class="csc-object-history-association-event-people"/>
                             </div>
-                        </div>
+                        </div-->
 
 
-                        <div class="info-pair">
+                        <!--div class="info-pair">
                             <div class="header">
                                 <div class="label csc-collection-object-assocEventPersons-label"></div>
                             </div>
                             <div class="content">
                                 <input type="text" class="csc-object-history-association-event-person"/>
                             </div>
-                        </div>
+                        </div-->
 
-                        <div class="info-pair">
+                        <!--div class="info-pair">
                             <div class="header">
                                 <div class="label csc-collection-object-assocEventPlaces-label"></div>
                             </div>
                             <div class="content">
                                 <input type="text" class="csc-object-history-association-event-place"/>
                             </div>
-                        </div>
+                        </div-->
 
                         <div class="info-pair">
                             <div class="header">
@@ -1758,7 +1746,7 @@
                     <div class="label csc-collection-object-viewersPersonalResponse-label"></div>
                 </div>
                 <div class="content">
-                    <textarea rows="4" cols="30" class="input-textarea csc-object-viewer-response"></textarea>
+                    <input type="text" class="csc-object-viewer-response"/>
                 </div>
             </div>
         </div>

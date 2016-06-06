@@ -25,9 +25,9 @@ login-footerLink:
 login-footerLast: 
 
 # Fine and Contemporary Art Profile - Cataloging
-collection-object-objectNameLabel: Object/work type
-collection-object-responsibleDepartmentsLabel: Classification terms
-collection-object-responsibleDepartmentLabel: Classification term
+#collection-object-objectNameLabel: Object/work type
+#collection-object-responsibleDepartmentsLabel: Classification terms
+#collection-object-responsibleDepartmentLabel: Classification term
 collection-object-referenceLabel: Source brief citation
 collection-object-titleLabel: Title text
 collection-object-contentConceptsLabel: General subject terms
@@ -86,3 +86,33 @@ vocab-objectname: Object Name Concepts
 vocab-category: Category Concepts
 vocab-subcategory: Sub-Category Concepts
 vocab-namedcollection: Named Collection
+
+# Cataloging
+collection-object-otherNumberLabel: Alternate Number
+collection-object-distinguishingFeaturesLabel: Extended Label Text
+collection-object-objectNameSystemLabel: Category
+collection-object-objectNameTypeLabel: Sub-Category
+collection-object-objectNameLabel: Object name
+collection-object-responsibleDepartmentsLabel: Classification
+collection-object-responsibleDepartmentLabel: Classification
+collection-object-namedCollectionLabel: Named Collection
+collection-object-approvedForWebLabel: Approved For Web?
+collection-object-conditionStatusLabel: Condition Status
+collection-object-viewersPersonalExperienceLabel: Viewer's Note
+collection-object-viewersPersonalResponseLabel: Viewer
+
+#Variable Media Extension
+collection-object-originalFormatLabel: Original storage format
+collection-object-originalAudioFormatLabel: Original playback Format
+collection-object-copiesProvidedLabel: Copies provided on acquisition
+collection-object-compressionSystemsLabel: Compression systems used
+collection-object-ratioFormatsLabel: Ratio Format
+collection-object-nonStandardCodeLabel: Non-standard Code
+collection-object-sourceExternalDataLabel: Sources of external data
+collection-object-screenResolutionLabel: Preferred screen resolution
+collection-object-colorPaletteLabel: Preferred color palatte
+collection-object-creationHardwaresLabel: Creation hardware
+collection-object-playbackHardwaresLabel: Playback hardware
+
+#Fine Art Extension
+collection-object-creatorDescriptionLabel: Public caption
