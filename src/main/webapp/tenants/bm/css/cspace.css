@@ -389,10 +389,10 @@ li .flc-pager-pageLink {
     height:auto !important;}
 #name-header-login {
     margin-top:0px;
-    background: #fff url("../images/header-logo.gif") no-repeat left top;
+    background: #fff url("../images/bm-logo.png") no-repeat left top;
     background-size: contain;
-    width:104px; 
-    height:115px;
+    width:453px; 
+    height:73px;
     display:inline-block;
     margin-right:10px;
 }
@@ -408,13 +408,13 @@ li .flc-pager-pageLink {
     margin-top:5px;
     margin-bottom:10px;
     float:left; 
-    background: #fff url("../images/header-logo.gif") no-repeat left top; 
+    background: #fff url("../images/bm-logo.png") no-repeat left top; 
     background-size: contain;
-    width:104px; 
-    height:115px;}
+    width:453px; 
+    height:73px;}
 .header-menu-logo a {
     display:block; 
-    height:115px; 
+    height:73px; 
     text-indent:-9999px;}
 .header-menu-right {
     float:right; 
